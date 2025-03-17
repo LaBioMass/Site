@@ -3,7 +3,7 @@ body {
     padding: 0;
     background-color: #ADD8E6;
     border: 5px solid black;
-    font-family: "Merriweather", serif;
+    font-family: "Courier New", Courier, monospace;;
 }
 
 header {
@@ -32,4 +32,11 @@ nav ul li a {
     text-decoration: none;
     color: black;
     font-weight: bold;
+}
+
+h2 {
+    text-align: center; /* Centraliza o título */
+    font-size: 28px; /* Aumenta o tamanho da fonte */
+    font-family: "Courier New", Courier, monospace; /* Fonte estilo máquina de escrever */
+    margin-top: 20px; /* Adiciona um espaçamento superior */
 }
