@@ -51,3 +51,361 @@ a {
 a:hover {
     text-decoration: underline;
 }
+
+/* Navbar de seções da equipe */
+.team-navbar {
+    background: white;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 80px;
+    z-index: 1000;
+    border-bottom: 2px solid #1e90ff;
+    margin-top: 80px;
+}
+
+/* Ajuste para seções com IDs */
+section[id] {
+    padding-top: 40px;
+    margin-top: -40px;
+}
+
+/* Centralização dos títulos das seções */
+section h2 {
+    text-align: center !important;
+    margin-bottom: 1rem !important;
+    font-weight: bold !important;
+    color: #333 !important;
+}
+
+/* Diminuir espaçamento entre cards e próximas seções */
+.researchers-row {
+    margin-bottom: 0.2rem;
+}
+
+section {
+    margin-bottom: 0.3rem;
+    padding: 0.8rem 0;
+}
+
+/* Ajuste específico para o espaçamento entre seções */
+section + section {
+    margin-top: 0.3rem;
+}
+
+/* Ajuste para o título principal da página */
+section h1 {
+    margin-bottom: 0.5rem !important;
+    text-align: center !important;
+}
+
+.team-nav-list {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    gap: 0;
+}
+
+.team-nav-link {
+    display: block;
+    padding: 15px 30px;
+    text-decoration: none;
+    color: #666;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    border-bottom: 3px solid transparent;
+    position: relative;
+}
+
+.team-nav-link:hover {
+    color: #1e90ff;
+    background-color: #f8f9fa;
+}
+
+.team-nav-link.active {
+    color: #1e90ff;
+    border-bottom-color: #1e90ff;
+    background-color: #f0f8ff;
+}
+
+.team-nav-link.active::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background-color: #1e90ff;
+}
+
+/* Estilos para seção vazia */
+.empty-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    margin: 30px 0;
+}
+
+.empty-content {
+    text-align: center;
+    padding: 40px;
+    max-width: 500px;
+}
+
+.empty-content h3 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.empty-content p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+/* Layout de duas colunas para pesquisadores */
+.researchers-row {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+}
+
+/* Estilos para o card do pesquisador */
+.researcher-card {
+    display: flex;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    overflow: hidden;
+    width: 550px;
+    min-height: 320px;
+    flex-shrink: 0;
+    margin: 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.researcher-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.2);
+}
+
+.researcher-photo {
+    flex: 0 0 200px;
+    padding: 20px;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.researcher-photo img {
+    width: 150px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 3px solid #1e90ff;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 12px rgba(30, 144, 255, 0.2);
+}
+
+.cv-link {
+    margin-bottom: 12px;
+}
+
+.cv-link .btn {
+    border-radius: 20px;
+    font-size: 0.8rem;
+    padding: 6px 12px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    line-height: 1.2;
+}
+
+.cv-link .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(30, 144, 255, 0.3);
+}
+
+.articles-list {
+    text-align: left;
+    width: 100%;
+}
+
+.articles-list ul {
+    margin: 0;
+    padding: 0;
+}
+
+.articles-list li {
+    margin-bottom: 8px;
+    font-size: 0.85rem;
+    color: #666;
+    transition: color 0.3s ease;
+}
+
+.articles-list i {
+    color: #1e90ff;
+    margin-right: 8px;
+}
+
+.articles-list li:hover {
+    color: #1e90ff;
+}
+
+.articles-list a {
+    color: #1e90ff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.articles-list a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Estilos para informações de contato */
+.contact-info {
+    margin-top: 15px;
+    text-align: left;
+    width: 100%;
+}
+
+.contact-label {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #666;
+    margin-bottom: 8px;
+    margin: 0 0 8px 0;
+}
+
+.contact-email {
+    font-size: 0.8rem;
+    color: #666;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.contact-email i {
+    color: #1e90ff;
+    margin-right: 5px;
+}
+
+.contact-email a {
+    color: #1e90ff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-email a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.researcher-info {
+    flex: 1;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: hidden;
+}
+
+.researcher-name {
+    color: #1e90ff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #1e90ff;
+    padding-bottom: 8px;
+    line-height: 1.2;
+}
+
+.researcher-description {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #333;
+    text-align: justify;
+    margin: 0;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .researchers-row {
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        padding: 0 20px;
+        margin-bottom: 35px;
+    }
+    
+    .researcher-card {
+        width: 100%;
+        max-width: 550px;
+        flex-direction: column;
+        min-height: auto;
+    }
+    
+    .researcher-photo {
+        flex: none;
+        padding: 18px;
+    }
+    
+    .researcher-photo img {
+        width: 130px;
+        height: 160px;
+    }
+    
+    .researcher-info {
+        padding: 22px;
+    }
+    
+    .researcher-name {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+    
+    .researcher-description {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .researchers-row {
+        gap: 25px;
+        padding: 0 15px;
+    }
+    
+    .researcher-card {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .researcher-photo img {
+        width: 120px;
+        height: 160px;
+    }
+    
+    .researcher-name {
+        font-size: 1.3rem;
+    }
+    
+    .researcher-description {
+        font-size: 0.85rem;
+    }
+}

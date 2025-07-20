@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LaBioMass - Equipe</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+    <!-- Font Awesome para ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="../styles/equipe.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="../index.html">
+                <i class="fas fa-flask me-2"></i>LaBioMass
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./pesquisa.html">Pesquisa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./equipe.html">Equipe</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contato.html">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Conteúdo principal com padding-top para compensar navbar fixa -->
+    <div style="padding-top: 0;">
+        <!-- Navbar de seções da equipe -->
+        <nav class="team-navbar">
+            <div class="container">
+                <ul class="team-nav-list">
+                    <li><a href="#professores" class="team-nav-link active">Líderes</a></li>
+                    <li><a href="#doutorandos" class="team-nav-link">Doutorandos</a></li>
+                    <li><a href="#mestrandos" class="team-nav-link">Mestrandos</a></li>
+                    <li><a href="#iniciacao-cientifica" class="team-nav-link">Iniciação Científica</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <section id="professores">
+            <h1>Equipe do LaBioMass</h1>
+
+            <h2>Líderes</h2>
+
+            <div class="researchers-row">
+                <div class="researcher-card">
+                    <div class="researcher-photo">
+                        <img src="../assets/imgs/" alt="Foto do Professor Eduardo Pilau">
+                        <div class="cv-link">
+                            <a href="#" target="_blank" class="btn btn-outline-primary btn-sm">
+                                <i class="fas fa-file-alt me-1"></i>Currículo Lattes
+                            </a>
+                        </div>
+                        <div class="articles-list">
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-file-text me-1"></i><a href="#" target="_blank">Artigo 1</a></li>
+                                <li><i class="fas fa-file-text me-1"></i><a href="#" target="_blank">Artigo 2</a></li>
+                                <li><i class="fas fa-file-text me-1"></i><a href="#" target="_blank">Artigo 3</a></li>
+                            </ul>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-label">Contato</p>
+                            <p class="contact-email">
+                                <i class="fas fa-envelope me-1"></i>
+                                <a href="mailto:exemplo@gmail.com">exemplo@gmail.com</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="researcher-info">
+                        <h3 class="researcher-name">Professor Doutor Eduardo Jorge Pilau</h3>
+                        <p class="researcher-description">
+                            Professor e pesquisador dedicado ao estudo de biomoléculas e espectrometria de massas.
+                            Coordena pesquisas em metabolômica e proteômica, desenvolvendo metodologias avançadas
+                            para análise química e caracterização de compostos bioativos.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="researcher-card">
+                    <div class="researcher-photo">
+                        <img src="../assets/imgs/" alt="Foto da Professora Carla Porto">
+                        <div class="cv-link">
+                            <a href="#" target="_blank" class="btn btn-outline-primary btn-sm">
+                                <i class="fas fa-file-alt me-1"></i>Currículo Lattes
+                            </a>
+                        </div>
+                        <div class="articles-list">
+                            <ul class="list-unstyled">
+                                <li><i class="fas fa-file-text me-1"></i><a href="#" target="_blank">Artigo 1</a></li>
+                                <li><i class="fas fa-file-text me-1"></i><a href="#" target="_blank">Artigo 2</a></li>
+                                <li><i class="fas fa-file-text me-1"></i><a href="#" target="_blank">Artigo 3</a></li>
+                            </ul>
+                        </div>
+                        <div class="contact-info">
+                            <p class="contact-label">Contato</p>
+                            <p class="contact-email">
+                                <i class="fas fa-envelope me-1"></i>
+                                <a href="mailto:exemplo@gmail.com">exemplo@gmail.com</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="researcher-info">
+                        <h3 class="researcher-name">Professora Doutora Carla Porto</h3>
+                        <p class="researcher-description">
+                            Professora e pesquisadora especializada em análise química e caracterização de biomoléculas.
+                            Desenvolve pesquisas em perfil químico e identificação de compostos bioativos,
+                            contribuindo para o avanço da ciência através de metodologias inovadoras.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <section id="doutorandos">
+                <h2>Doutorandos</h2>
+
+                <div class="researchers-row">
+                    <div class="researcher-card">
+                        <div class="researcher-photo">
+                            <img src="../assets/imgs/Paula.jpeg" alt="Foto de Paula Derksen Macruz">
+                            <div class="cv-link">
+                                <a href="#" target="_blank" class="btn btn-outline-primary btn-sm">
+                                    <i class="fas fa-file-alt me-1"></i>Currículo Lattes
+                                </a>
+                            </div>
+                            <div class="articles-list">
+                                <ul class="list-unstyled">
+                                    <li><i class="fas fa-file-text me-1"></i><a href="#" target="_blank">Artigo 1</a>
+                                    </li>
+                                    <li><i class="fas fa-file-text me-1"></i><a href="#" target="_blank">Artigo 2</a>
+                                    </li>
+                                    <li><i class="fas fa-file-text me-1"></i><a href="#" target="_blank">Artigo 3</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="contact-info">
+                                <p class="contact-label">Contato</p>
+                                <p class="contact-email">
+                                    <i class="fas fa-envelope me-1"></i>
+                                    <a href="mailto:exemplo@gmail.com">exemplo@gmail.com</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="researcher-info">
+                            <h3 class="researcher-name">Paula Derksen Macruz</h3>
+                            <p class="researcher-description">
+                                Doutoranda dedicada à pesquisa em metabolômica e análise química. Desenvolve estudos
+                                sobre caracterização de biomoléculas e identificação de metabólitos em diferentes
+                                matrizes,
+                                contribuindo para o avanço do conhecimento científico na área.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="researcher-card">
+                        <div class="researcher-photo">
+                            <img src="../assets/imgs/Renan.jpeg" alt="Foto de Renan de Oliveira Venci">
+                            <div class="cv-link">
+                                <a href="http://lattes.cnpq.br/3490528576507346" target="_blank"
+                                    class="btn btn-outline-primary btn-sm">
+                                    <i class="fas fa-file-alt me-1"></i>Currículo Lattes
+                                </a>
+                            </div>
+                            <div class="articles-list">
+                                <ul class="list-unstyled">
+                                    <li><i class="fas fa-file-text me-1"></i><a href="#" target="_blank">Artigo 1</a>
+                                    </li>
+                                    <li><i class="fas fa-file-text me-1"></i><a href="#" target="_blank">Artigo 2</a>
+                                    </li>
+                                    <li><i class="fas fa-file-text me-1"></i><a href="#" target="_blank">Artigo 3</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="contact-info">
+                                <p class="contact-label">Contato</p>
+                                <p class="contact-email">
+                                    <i class="fas fa-envelope me-1"></i>
+                                    <a href="mailto:exemplo@gmail.com">exemplo@gmail.com</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="researcher-info">
+                            <h3 class="researcher-name">Renan de Oliveira Venci</h3>
+                            <p class="researcher-description">
+                                Desenvolve pesquisas no campo da metabolômica, com ênfase na caracterização do perfil
+                                químico de cervejas.
+                                Seu trabalho envolve o uso de cromatografia líquida acoplada à espectrometria de massas
+                                (LC-MS) e cromatografia
+                                gasosa acoplada à espectrometria de massas (GC-MS) para a identificação e quantificação
+                                de metabólitos presentes
+                                no lúpulo e em outros componentes da cerveja.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="researchers-row">
+                    <div class="researcher-card">
+                        <div class="researcher-photo">
+                            <img src="../assets/imgs/Paula.jpeg" alt="Foto de João Pabllo da Silva">
+                            <div class="cv-link">
+                                <a href="#" target="_blank" class="btn btn-outline-primary btn-sm">
+                                    <i class="fas fa-file-alt me-1"></i>Currículo Lattes
+                                </a>
+                            </div>
+                            <div class="articles-list">
+                                <ul class="list-unstyled">
+                                    <li><i class="fas fa-file-text me-1"></i><a href="#" target="_blank">Artigo 1</a>
+                                    </li>
+                                    <li><i class="fas fa-file-text me-1"></i><a href="#" target="_blank">Artigo 2</a>
+                                    </li>
+                                    <li><i class="fas fa-file-text me-1"></i><a href="#" target="_blank">Artigo 3</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="contact-info">
+                                <p class="contact-label">Contato</p>
+                                <p class="contact-email">
+                                    <i class="fas fa-envelope me-1"></i>
+                                    <a href="mailto:exemplo@gmail.com">exemplo@gmail.com</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="researcher-info">
+                            <h3 class="researcher-name">João Pabllo da Silva Silva</h3>
+                            <p class="researcher-description">
+                                Doutorando focado em pesquisas de proteômica e análise de biomoléculas. Desenvolve
+                                metodologias para identificação e caracterização de proteínas, contribuindo para
+                                o entendimento de processos bioquímicos e desenvolvimento de biomarcadores.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <section id="mestrandos">
+                    <h2>Mestrandos</h2>
+
+                    <div class="researchers-row">
+                        <div class="researcher-card">
+                                                    <div class="researcher-photo">
+                            <img src="gesse.jpg" alt="Foto de Gessé">
+                            <div class="cv-link">
+                                <a href="#" target="_blank" class="btn btn-outline-primary btn-sm">
+                                    <i class="fas fa-file-alt me-1"></i>Currículo Lattes
+                                </a>
+                            </div>
+                            <div class="articles-list">
+                                <ul class="list-unstyled">
+                                    <li><i class="fas fa-file-text me-1"></i><a href="#" target="_blank">Artigo
+                                            1</a></li>
+                                    <li><i class="fas fa-file-text me-1"></i><a href="#" target="_blank">Artigo
+                                            2</a></li>
+                                    <li><i class="fas fa-file-text me-1"></i><a href="#" target="_blank">Artigo
+                                            3</a></li>
+                                </ul>
+                            </div>
+                            <div class="contact-info">
+                                <p class="contact-label">Contato</p>
+                                <p class="contact-email">
+                                    <i class="fas fa-envelope me-1"></i>
+                                    <a href="mailto:exemplo@gmail.com">exemplo@gmail.com</a>
+                                </p>
+                            </div>
+                        </div>
+
+                            <div class="researcher-info">
+                                <h3 class="researcher-name">Gessé</h3>
+                                <p class="researcher-description">
+                                    Mestrando dedicado à pesquisa em análise química e caracterização de biomoléculas.
+                                    Desenvolve estudos sobre identificação de compostos bioativos e metodologias
+                                    analíticas
+                                    para diferentes matrizes biológicas.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="researcher-card">
+                                                    <div class="researcher-photo">
+                            <img src="vinicius_m.jpg" alt="Foto de Vinicius Ribeiro Montes">
+                            <div class="cv-link">
+                                <a href="#" target="_blank" class="btn btn-outline-primary btn-sm">
+                                    <i class="fas fa-file-alt me-1"></i>Currículo Lattes
+                                </a>
+                            </div>
+                            <div class="articles-list">
+                                <ul class="list-unstyled">
+                                    <li><i class="fas fa-file-text me-1"></i><a href="#" target="_blank">Artigo
+                                            1</a></li>
+                                    <li><i class="fas fa-file-text me-1"></i><a href="#" target="_blank">Artigo
+                                            2</a></li>
+                                    <li><i class="fas fa-file-text me-1"></i><a href="#" target="_blank">Artigo
+                                            3</a></li>
+                                </ul>
+                            </div>
+                            <div class="contact-info">
+                                <p class="contact-label">Contato</p>
+                                <p class="contact-email">
+                                    <i class="fas fa-envelope me-1"></i>
+                                    <a href="mailto:exemplo@gmail.com">exemplo@gmail.com</a>
+                                </p>
+                            </div>
+                        </div>
+
+                            <div class="researcher-info">
+                                <h3 class="researcher-name">Vinicius Ribeiro Montes</h3>
+                                <p class="researcher-description">
+                                    Mestrando focado em pesquisas de metabolômica e análise de metabólitos. Desenvolve
+                                    metodologias para identificação e quantificação de compostos em diferentes amostras,
+                                    contribuindo para o avanço da ciência analítica.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="researchers-row">
+                        <div class="researcher-card">
+                                                    <div class="researcher-photo">
+                            <img src="vinicius.jpg" alt="Foto de Vinicius">
+                            <div class="cv-link">
+                                <a href="#" target="_blank" class="btn btn-outline-primary btn-sm">
+                                    <i class="fas fa-file-alt me-1"></i>Currículo Lattes
+                                </a>
+                            </div>
+                            <div class="articles-list">
+                                <ul class="list-unstyled">
+                                    <li><i class="fas fa-file-text me-1"></i><a href="#" target="_blank">Artigo
+                                            1</a></li>
+                                    <li><i class="fas fa-file-text me-1"></i><a href="#" target="_blank">Artigo
+                                            2</a></li>
+                                    <li><i class="fas fa-file-text me-1"></i><a href="#" target="_blank">Artigo
+                                            3</a></li>
+                                </ul>
+                            </div>
+                            <div class="contact-info">
+                                <p class="contact-label">Contato</p>
+                                <p class="contact-email">
+                                    <i class="fas fa-envelope me-1"></i>
+                                    <a href="mailto:exemplo@gmail.com">exemplo@gmail.com</a>
+                                </p>
+                            </div>
+                        </div>
+
+                            <div class="researcher-info">
+                                <h3 class="researcher-name">Vinicius</h3>
+                                <p class="researcher-description">
+                                    Mestrando especializado em análise química e caracterização de biomoléculas.
+                                    Desenvolve
+                                    pesquisas sobre identificação de compostos bioativos e desenvolvimento de
+                                    metodologias
+                                    analíticas inovadoras para diferentes matrizes.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="iniciacao-cientifica">
+                    <h2>Iniciação Científica</h2>
+                    
+                    <div class="researchers-row">
+                        <div class="researcher-card">
+                                                    <div class="researcher-photo">
+                            <img src="../assets/imgs/" alt="Foto do Pesquisador 1">
+                            <div class="cv-link">
+                                <a href="#" target="_blank" class="btn btn-outline-primary btn-sm">
+                                    <i class="fas fa-file-alt me-1"></i>Currículo Lattes
+                                </a>
+                            </div>
+                            <div class="articles-list">
+                                <ul class="list-unstyled">
+                                    <li><i class="fas fa-file-text me-1"></i><a href="#" target="_blank">Artigo 1</a></li>
+                                    <li><i class="fas fa-file-text me-1"></i><a href="#" target="_blank">Artigo 2</a></li>
+                                    <li><i class="fas fa-file-text me-1"></i><a href="#" target="_blank">Artigo 3</a></li>
+                                </ul>
+                            </div>
+                            <div class="contact-info">
+                                <p class="contact-label">Contato</p>
+                                <p class="contact-email">
+                                    <i class="fas fa-envelope me-1"></i>
+                                    <a href="mailto:exemplo@gmail.com">exemplo@gmail.com</a>
+                                </p>
+                            </div>
+                        </div>
+                            
+                            <div class="researcher-info">
+                                <h3 class="researcher-name">Pesquisador 1</h3>
+                                <p class="researcher-description">
+                                    Pesquisador de iniciação científica dedicado ao estudo de biomoléculas e análise química. 
+                                    Desenvolve pesquisas em caracterização de compostos e metodologias analíticas, 
+                                    contribuindo para o avanço do conhecimento científico na área.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="researcher-card">
+                                                    <div class="researcher-photo">
+                            <img src="../assets/imgs/" alt="Foto do Pesquisador 2">
+                            <div class="cv-link">
+                                <a href="#" target="_blank" class="btn btn-outline-primary btn-sm">
+                                    <i class="fas fa-file-alt me-1"></i>Currículo Lattes
+                                </a>
+                            </div>
+                            <div class="articles-list">
+                                <ul class="list-unstyled">
+                                    <li><i class="fas fa-file-text me-1"></i><a href="#" target="_blank">Artigo 1</a></li>
+                                    <li><i class="fas fa-file-text me-1"></i><a href="#" target="_blank">Artigo 2</a></li>
+                                    <li><i class="fas fa-file-text me-1"></i><a href="#" target="_blank">Artigo 3</a></li>
+                                </ul>
+                            </div>
+                            <div class="contact-info">
+                                <p class="contact-label">Contato</p>
+                                <p class="contact-email">
+                                    <i class="fas fa-envelope me-1"></i>
+                                    <a href="mailto:exemplo@gmail.com">exemplo@gmail.com</a>
+                                </p>
+                            </div>
+                        </div>
+                            
+                            <div class="researcher-info">
+                                <h3 class="researcher-name">Pesquisador 2</h3>
+                                <p class="researcher-description">
+                                    Pesquisador de iniciação científica focado em metabolômica e análise de metabólitos. 
+                                    Desenvolve estudos sobre identificação de compostos bioativos e metodologias 
+                                    analíticas para diferentes matrizes biológicas.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="researchers-row">
+                        <div class="researcher-card">
+                                                    <div class="researcher-photo">
+                            <img src="../assets/imgs/" alt="Foto do Pesquisador 3">
+                            <div class="cv-link">
+                                <a href="#" target="_blank" class="btn btn-outline-primary btn-sm">
+                                    <i class="fas fa-file-alt me-1"></i>Currículo Lattes
+                                </a>
+                            </div>
+                            <div class="articles-list">
+                                <ul class="list-unstyled">
+                                    <li><i class="fas fa-file-text me-1"></i><a href="#" target="_blank">Artigo 1</a></li>
+                                    <li><i class="fas fa-file-text me-1"></i><a href="#" target="_blank">Artigo 2</a></li>
+                                    <li><i class="fas fa-file-text me-1"></i><a href="#" target="_blank">Artigo 3</a></li>
+                                </ul>
+                            </div>
+                            <div class="contact-info">
+                                <p class="contact-label">Contato</p>
+                                <p class="contact-email">
+                                    <i class="fas fa-envelope me-1"></i>
+                                    <a href="mailto:exemplo@gmail.com">exemplo@gmail.com</a>
+                                </p>
+                            </div>
+                        </div>
+                            
+                            <div class="researcher-info">
+                                <h3 class="researcher-name">Pesquisador 3</h3>
+                                <p class="researcher-description">
+                                    Pesquisador de iniciação científica especializado em análise química e caracterização 
+                                    de biomoléculas. Desenvolve pesquisas sobre identificação de compostos bioativos 
+                                    e desenvolvimento de metodologias analíticas inovadoras.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <h5 class="mb-2 text-white">
+                        <i class="fas fa-flask me-2"></i>LaBioMass
+                    </h5>
+                    <p class="text-light mb-0">
+                        Laboratório de Biomoléculas e Espectrometria de Massas
+                    </p>
+                </div>
+                <div class="col-md-4 text-center">
+                    <p class="text-light mb-0">
+                        <i class="fas fa-map-marker-alt me-2"></i>Endereço
+                    </p>
+                </div>
+                <div class="col-md-4 text-md-end">
+                    <p class="text-light mb-0">
+                        &copy; 2025 LaBioMass - Todos os direitos reservados.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+    <!-- Script para navegação das seções -->
+    <script>
+        // Função para atualizar a navegação ativa
+        function updateActiveNav() {
+            const sections = document.querySelectorAll('section[id]');
+            const navLinks = document.querySelectorAll('.team-nav-link');
+
+            let current = '';
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (window.pageYOffset >= (sectionTop - 200)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        }
+
+        // Adicionar event listeners
+        document.addEventListener('DOMContentLoaded', function () {
+            // Smooth scroll para os links da navegação
+            document.querySelectorAll('.team-nav-link').forEach(link => {
+                link.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const targetSection = document.querySelector(targetId);
+
+                    if (targetSection) {
+                        const offsetTop = targetSection.offsetTop - 140; // Compensar navbar fixa + navbar de seções
+                        window.scrollTo({
+                            top: offsetTop,
+                            behavior: 'smooth'
+                        });
+                    }
+                });
+            });
+
+            // Atualizar navegação ativa no scroll
+            window.addEventListener('scroll', updateActiveNav);
+
+            // Inicializar navegação ativa
+            updateActiveNav();
+        });
+    </script>
+</body>
+
+</html>
